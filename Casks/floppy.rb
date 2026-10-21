@@ -2,8 +2,8 @@
 # in the essedev/homebrew-floppy tap: scripts/release-app.sh fills version and
 # sha256 from the DMG that scripts/build-app.sh builds and writes it there.
 cask "floppy" do
-  version "0.2.1"
-  sha256 "f7eb321753a5d18823a22cb5247ba910324d9215c1099c1cc144cc5153582339"
+  version "0.2.2"
+  sha256 "5fbe2cbed656c7129b667b6eedb0024c3386ac51820c51f419aceeb31cbcca9f"
 
   url "https://github.com/essedev/floppy/releases/download/v#{version}/Floppy_#{version}_aarch64.dmg"
   name "Floppy"
